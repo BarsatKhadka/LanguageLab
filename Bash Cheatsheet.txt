@@ -1,0 +1,36 @@
+echo <filename>    To print the same thing. (echo basically)
+pwd                See current directory
+ls                 List contents
+cd <folderName>	   Change Directory
+
+The folders seen on blue or green in ls command contain files that have some extension.
+
+cd .    Takes you nowhere , be 
+cd ..	Go back to one folder level
+cd ../.. Go back to two folder level
+cd ../../.. Go back to third folder level and so on.
+more<fileName> To see more of a content of a file.
+clear    Use it to see what it does.
+
+Flags are something given after command to make command more descriptive. ls<flag>  ls -l (lists in long format)
+
+You can make a new folder with mkdir <folder_name>. mkdir stands for "make directory". Remember folder and directory are same thing.
+
+You can use touch <filename> to create a new file. 
+
+Usually files like the .gitignore file cannot be seen on ls command. Because they are hidden. Most commands have a --help flag to show what the command can do. Display the "help" menu for the ls command. Here's an example: command <flag>
+
+rm        remove a file
+
+You can copy a file with cp <file> <destination>. cp stands for "copy". 
+
+You can rename them with mv like this: mv <filename> <new_filename>. mv stands for "move", it can rename or move something
+
+You can use find to find things or view a file tree. 
+
+You can mkdir <existing_folder_name>/<new_folder_name>
+
+ You can use find <folder_name> to display the tree of a different folder
+
+ You can search for something with find -name <filename>
+
