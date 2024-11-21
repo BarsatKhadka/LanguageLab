@@ -1,0 +1,78 @@
+
+//check version
+docker -v
+
+//pull image 
+docker pull <image-name>
+
+//see all images 
+docker images
+
+//pull specific version of image
+docker pull <image-name>:version
+
+//search for docker images
+docker search <image_name>
+
+//run image
+docker run <image_name>
+
+//see running container
+docker ps
+
+//see all containers (running , stopped and exited)
+docker ps -a
+
+//flags
+docker run -d (detached mode) <IMAGE_ID> (When you run a Docker container with the -d flag, it runs the container in the background and does not block your terminal.)
+
+docker run --name (set name)
+
+docker run --name <containerName> -it (for interactive mode) and -d (image name)
+
+//run docker (After running docker)
+
+docker exec -it <ContainerID> <command to use>
+
+//see all information
+docker inspect <ContainerId>
+
+Read Documentation for images and how to setup and all. Search web for hub docker <image name>
+
+//Stop
+docker stop command or commandID
+
+//remove docker container from ps -a
+docker rm (command ID[You can just put initial two of id!nemo )(can be stacked)
+
+//remove docker images 
+docker rmi (command name , ID)
+
+//restart docker images
+docker restart <Container image , Container ID>
+
+//pushing to docker hub online
+docker login
+docker commit
+docker push
+docker volume
+docker copy 
+docker logout
+
+//check logs
+docker logs <Container name>
+
+
+//Making a docker image
+Make file named Dockerfile
+From <BASE IMAGE> (usually determines in which OS to use)
+MAINTAINER <maintainer name>
+RUN apt-update
+CMD ["echo","this is my first image"]
+
+after making such files
+
+docker build -t <name> . (choose files from that directory [. is for all])
+
+
+
