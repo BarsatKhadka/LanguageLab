@@ -194,8 +194,23 @@
 
 # print(count)
 
-with open('house.txt' , 'r' ) as f:
-    new = list(f.read().split("\t"))
-    print(new)
+# with open('house.txt' , 'r' ) as f:
+#     new = list(f.read().split("\t"))
+#     print(new)
+
+# substring = "lk"
+# barsat = "newBarsta"
+
+# print(barsat.find(substring))
+# print(barsat[::-1])
 
 
+# serious = "djfhadsj dflsdhflas fdlfhsldfh dshflsd hfdlsahflsadj hfdaslhfla"
+# newserious = serious.split(" ")
+# print(newserious)
+# for i in newserious:
+#     print(i)
+
+
+# with open('house.txt','r') as f:
+#     print((f.readlines()))
