@@ -151,10 +151,9 @@ lists = ["tie me down",1 ,2, 3, 4, 5]
 
 
 
-with open('house.txt') as f:
-    lines = f.read().splitlines()
-    print(lines)
-    
+lis = ["Sadhak","Python","Lang"]
+rev = [word[::-1] for word in lis[::-1]]
+print(rev)
 
 
 
